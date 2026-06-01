@@ -4,7 +4,10 @@ use App\Livewire\Auth\Login;
 use App\Livewire\Auth\Register;
 use App\Livewire\Counter;
 use App\Livewire\DropDown;
+<<<<<<< HEAD
 use App\Livewire\Home;
+=======
+>>>>>>> b5fb768e7385cb5970cdab48517870ed71d87d47
 use App\Livewire\Students\StudentCreate;
 use App\Livewire\Students\StudentEdit;
 use App\Livewire\Students\StudentList;
@@ -14,7 +17,10 @@ use Illuminate\Support\Facades\Route;
 
 
 // Students Routes
+<<<<<<< HEAD
 Route::get('/', Home::class)->name('home');
+=======
+>>>>>>> b5fb768e7385cb5970cdab48517870ed71d87d47
 Route::get('/students', StudentList::class)->name('students.index');
 Route::get('/students/create', StudentCreate::class)->name('students.create');
 Route::get('/students/{id}/edit', StudentEdit::class)->name('students.edit');

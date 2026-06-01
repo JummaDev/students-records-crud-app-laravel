@@ -13,6 +13,15 @@
         </div>
     </div>
 
+<<<<<<< HEAD
+=======
+    @if(Livewire::getClass('students.student-form'))
+        <div class="bg-white border border-gray-200 rounded-xl shadow-sm p-6">
+            @livewire('students.student-form')
+        </div>
+    @endif
+
+>>>>>>> b5fb768e7385cb5970cdab48517870ed71d87d47
     @if (session()->has('success'))
         <div class="flex items-center p-4 text-sm text-emerald-800 bg-emerald-50 border border-emerald-200 rounded-lg shadow-sm" role="alert">
             <svg class="w-5 h-5 mr-2.5 text-emerald-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
